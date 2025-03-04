@@ -1,5 +1,25 @@
-# DREAM BETA
+# DREAM_BETA
 
-## Description
+![Flight Controller](Images/1.jpg)
 
-Le projet vise à concevoir et réaliser un ordinateur de vol pour drone FPV capable d'exécuter le firmware BetaFlight. Il comprend la sélection et l'intégration de composants électroniques spécifiques, notamment un microcontrôleur STM32, une centrale inertielle, une boîte noire, un baromètre, un port USB, ainsi que des connexions pour un GPS et un magnétomètre. L'objectif est de développer une carte électronique miniaturisée conforme aux standards des drones FPV, en assurant la compatibilité matérielle et logicielle avec BetaFlight, la fiabilité et la sécurité du système, et en tirant parti des fonctionnalités avancées de BetaFlight pour optimiser les performances du drone./
+DREAM_BETA is an open source project dedicated to designing and developing a flight computer for FPV drones. The board is created to run the BetaFlight firmware.
+---
+
+## Project History
+
+DREAM_BETA evolved from earlier personal. Starting with the LEVEL project in 2021, which focused on building flight controllers for various aerial vehicles, the concept matured through iterations like DREAM_ALPHA. DREAM_BETA represents the next step: adapting the flight controller design to meet modern FPV software.
+
+---
+
+## Repository Structure
+
+The repository is organized as follows:
+DREAM_BETA/ ├── Hardware/ │ ├── DB_ELRS_R1_(ELRS_Receiver) # Design files for the ELRS radio receiver (designed and fabricated, not yet tested) │ └── DB_FC_R1_(Flight_Controller) # Design files for the flight controller (tested and validated; schematic corrections highlighted in orange have not been applied to the Gerber files) ├── Firmware/ │ ├── config.h # Configuration file with pin declarations and board-specific settings │ └── betaflight_4.5.0_STM32F405_DREAM_BETA.hex # Precompiled BetaFlight firmware for the flight controller ├── Images/ │ └── 1.jpg # Photo of the flight controller prototype ├── Documentation/ # Additional design notes, calculations, and testing reports └── README.md # This file
+
+---
+
+## Open Source Commitment
+
+DREAM_BETA is released under an open source license. All design files, firmware, and documentation are freely available for anyone interested in contributing to or learning from the project.
+
+---
