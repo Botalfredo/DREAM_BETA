@@ -45,7 +45,7 @@ The repository is organized as follows:
 
 - **OSD MAX7456**  ✅
 
-- **GPS Interface** 🟨 
+- **GPS Interface** ✅ 
  
 - **Magnetometer Interface** 🟨  
 
